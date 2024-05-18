@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Hotel Ramada",
+        "latitude": 46.764654252624204,
+        "longitude": 23.598674125224626
+    },
+    {
+        "id": 2,
+        "name": "Grand Hotel Italia",
+        "latitude": 46.7522792440665,
+        "longitude": 23.605990381045697
+    },
+    {
+        "id": 3,
+        "name": "Hampton by Hilton",
+        "latitude": 46.77539900854998,
+        "longitude": 23.60182699638966
+    }
+]

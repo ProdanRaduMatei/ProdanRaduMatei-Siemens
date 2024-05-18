@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox>
+        <VBox>
+            <HBox>
+                <TextFiled fx:id="userLatitude" promptText="Latitude" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextFiled fx:id="userLongitude" promptText="Longitude" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="userRadius" promptText="Radius" alignment="TOP_CENTER" maxWidth="100"/>
+            </HBox>
+            <Button fx:id="searchHotelsButton" text="Search Hotels" alignment="TOP_CENTER"/>
+        </VBox>
+        <VBox>
+            <ListView fx:id="hotelListView" layoutX="13.0" layoutY="10.0" prefHeight="222.0" prefWidth="692.0" />
+        </VBox>
+        <VBox>
+            <TextField fx:id="selectedHotel" promptText="Hotel" alignment="TOP_CENTER" maxWidth="100"/>
+            <HBox>
+                <TextField fx:id="checkInYear" promptText="Check In Year" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="checkInMonth" promptText="Check In Month" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="checkInDay" promptText="Check In Day" alignment="TOP_CENTER" maxWidth="100"/>
+            </HBox>
+            <HBox>
+                <TextField fx:id="checkOutYear" promptText="Check Out Year" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="checkOutMonth" promptText="Check Out Month" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="checkOutDay" promptText="Check Out Day" alignment="TOP_CENTER" maxWidth="100"/>
+            </HBox>
+                <Button fx:id="searchRoomsButton" text="Search Rooms" alignment="TOP_CENTER"/>
+            <HBox>
+                <ListView fx:id="roomListView" layoutX="13.0" layoutY="10.0" prefHeight="222.0" prefWidth="692.0" />
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <TextField fx:id="selectedRoom" promptText="Room" alignment="TOP_CENTER" maxWidth="100"/>
+                <Button fx:id="bookRoomButton" text="Book Room" alignment="TOP_CENTER"/>
+            </HBox>
+        </VBox>
+        <VBox>
+            <HBox>
+                <TextField fx:id="bookedHotel" promptText="Hotel" alignment="TOP_CENTER" maxWidth="100"/>
+                <TextField fx:id="bookedRoom" promptText="Room Number" alignment="TOP_CENTER" maxWidth="100"/>
+            </HBox>
+            <VBox>
+                <HBox>
+                    <TextField fx:id="oldCheckInYear" promptText="Old Check In Year" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="oldCheckInMonth" promptText="Old Check In Month" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="oldCheckInDay" promptText="Old Check In Day" alignment="TOP_CENTER" maxWidth="100"/>
+                </HBox>
+                <HBox>
+                    <TextField fx:id="oldCheckOutYear" promptText="Old Check Out Year" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="oldCheckOutMonth" promptText="Old Check Out Month" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="oldCheckOutDay" promptText="Old Check Out Day" alignment="TOP_CENTER" maxWidth="100"/>
+                </HBox>
+                <HBox>
+                    <TextField fx:id="newCheckInYear" promptText="New Check In Year" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="newCheckInMonth" promptText="New Check In Month" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="newCheckInDay" promptText="New Check In Day" alignment="TOP_CENTER" maxWidth="100"/>
+                </HBox>
+                <HBox>
+                    <TextField fx:id="newCheckOutYear" promptText="New Check Out Year" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="newCheckOutMonth" promptText="New Check Out Month" alignment="TOP_CENTER" maxWidth="100"/>
+                    <TextField fx:id="newCheckOutDay" promptText="New Check Out Day" alignment="TOP_CENTER" maxWidth="100"/>
+                </HBox>
+            </VBox>
+            <HBox>
+                <Button fx:id="updateBookingButton" text="Update Booking" alignment="TOP_CENTER"/>
+                <Button fx:id="cancelBookingButton" text="Cancel Booking" alignment="TOP_CENTER"/>
+            </HBox>
+        </VBox>
+        <VBox>
+            <TextField fx:id="message" promptText="Feedback" alignment="TOP_CENTER" maxWidth="400"/>
+            <Button fx:id="saveMessageButton" text="Save Feedback" alignment="TOP_CENTER"/>
+        </VBox>
+    </VBox>
+
+</AnchorPane>

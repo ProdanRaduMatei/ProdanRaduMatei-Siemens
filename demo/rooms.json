@@ -1,0 +1,52 @@
+[
+    {
+        "hotelId": 1,
+        "roomNumber": 210,
+        "type": 2,
+        "price": 200,
+        "isAvailable": true
+    },
+    {
+        "hotelId": 1,
+        "roomNumber": 125,
+        "type": 1,
+        "price": 350,
+        "isAvailable": true
+    },
+    {
+        "hotelId": 1,
+        "roomNumber": 87,
+        "type": 1,
+        "price": 300,
+        "isAvailable": false
+    },
+
+    {
+        "hotelId": 2,
+        "roomNumber": 41,
+        "type": 3,
+        "price": 240,
+        "isAvailable": true
+    },
+    {
+        "hotelId": 3,
+        "roomNumber": 32,
+        "type": 2,
+        "price": 410,
+        "isAvailable": false
+    },
+    {
+        "hotelId": 3,
+        "roomNumber": 21,
+        "type": 2,
+        "price": 350,
+        "isAvailable": true
+    },
+    {
+        "hotelId": 3,
+        "roomNumber": 64,
+        "type": 3,
+        "price": 300,
+        "isAvailable": true
+    }
+]
